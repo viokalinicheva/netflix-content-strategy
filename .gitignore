@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+qa/
+outputs/
+data/*
+!data/README.md
+*.csv
+*.xlsx
+*.xls
+.env
+*token*
+*credentials*
+*APIkeys*

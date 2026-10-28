@@ -1,0 +1,146 @@
+{
+  "status": "clean_kernel_verified",
+  "validated_on": "2026-10-28",
+  "python": "3.12.14",
+  "packages": {
+    "pandas": "2.2.3",
+    "numpy": "2.3.5",
+    "matplotlib": "3.11.2",
+    "openpyxl": "3.1.5",
+    "nbformat": "5.11.1",
+    "nbclient": "0.11.0",
+    "ipykernel": "7.3.0"
+  },
+  "sources_retrieved_on": "2026-10-28",
+  "sources": [
+    "https://www.netflix.com/tudum/top10/",
+    "https://about.netflix.com/en/news/top-10-things-about-netflix-top-10"
+  ],
+  "metrics": {
+    "source_sha256": {
+      "all-weeks-global-netflix.xlsx": "7daf75f505d72218e26427ddaa6c2570ef89a50fd39b6a182107625af247e714",
+      "all-weeks-countries-netflix.xlsx": "b12f6127d92bec1beb941c06e0f1522f62114198fc6e62cbe99553366db938df"
+    },
+    "audit": {
+      "all-weeks-global-netflix.xlsx": {
+        "downloaded_rows": 11080,
+        "rows_after_time_boundary": 5840,
+        "columns": 9,
+        "exact_duplicates": 0,
+        "season_missing_rows_after_time_boundary": 2992
+      },
+      "all-weeks-countries-netflix.xlsx": {
+        "downloaded_rows": 515920,
+        "rows_after_time_boundary": 272260,
+        "columns": 8,
+        "exact_duplicates": 0,
+        "season_missing_rows_after_time_boundary": 138772
+      }
+    },
+    "global_rows": 5840,
+    "country_rows": 272260,
+    "most_popular_rows": 0,
+    "countries": 94,
+    "schedule_flags_available": false,
+    "optional_91day_appendix_available": false,
+    "weeks": 146,
+    "first_week": "2021-07-04",
+    "last_week": "2024-04-14",
+    "views_first_week": "2023-06-18",
+    "views_period_rows": 1760,
+    "views_period_weeks": 44,
+    "views_period_zero_runtime_rows": 72,
+    "hours_only_rows": 4080,
+    "runtime_views_rounding_max_relative_difference_pct": 7.6956214037354975,
+    "global_title_season_units": 2113,
+    "ambiguous_country_title_week_rows": 6,
+    "views_period_ambiguous_country_title_week_rows": 0,
+    "category_summary": [
+      {
+        "category": "Films (English)",
+        "title_season_units": 222,
+        "median_observed_weeks": 1.0,
+        "mean_observed_weeks": 1.981981981981982,
+        "median_peak_weekly_views": 5150000.0
+      },
+      {
+        "category": "Films (Non-English)",
+        "title_season_units": 198,
+        "median_observed_weeks": 2.0,
+        "mean_observed_weeks": 2.2222222222222223,
+        "median_peak_weekly_views": 2450000.0
+      },
+      {
+        "category": "TV (English)",
+        "title_season_units": 173,
+        "median_observed_weeks": 2.0,
+        "mean_observed_weeks": 2.5433526011560694,
+        "median_peak_weekly_views": 3300000.0
+      },
+      {
+        "category": "TV (Non-English)",
+        "title_season_units": 148,
+        "median_observed_weeks": 2.0,
+        "mean_observed_weeks": 2.972972972972973,
+        "median_peak_weekly_views": 2600000.0
+      }
+    ],
+    "category_summary_excluding_staggered_launch_units": [],
+    "views_period_title_season_units": 741,
+    "peak_title": "Damsel",
+    "peak_weekly_views": 50800000,
+    "top_12_peak_films": 11,
+    "country_week_coverage_min_countries": 93,
+    "country_week_coverage_max_countries": 94,
+    "top_country_breadth": {
+      "display_title": "ONE PIECE: Season 1",
+      "countries": 93,
+      "country_week_appearances": 543
+    },
+    "most_popular_91day_title": null,
+    "most_popular_91day_views": null,
+    "full_period_max_observed_weeks": 30,
+    "full_period_max_unit": {
+      "category": "TV (Non-English)",
+      "show_title": "Yo soy Betty, la fea",
+      "season": "Yo soy Betty, la fea: Season 1"
+    }
+  },
+  "clean_notebook_run": {
+    "executed_code_cells": 6,
+    "error_outputs": 0,
+    "embedded_figures": 4,
+    "notebook_sha256": "30df52109136e73b1b449f55107148d6c4e3530c888a7b8b38238a72ee4f51b7",
+    "analysis_sha256": "997f19c74f7922808b8d21cf0c300211bc0dafcb0809dce0c871360e85ac25e2"
+  },
+  "original_notebook": {
+    "name": "Violetta_Kalinicheva_Week1and2.ipynb",
+    "sha256": "817cc2e1b3820e5c133b912473dc021606c320c263aaee80ecdc9cb60d3dc15e",
+    "preserved": true
+  },
+  "release_checks": {
+    "executed_code_cells": 6,
+    "embedded_figures": 4,
+    "source_files_modified": false,
+    "raw_data_in_release": false,
+    "root_files": [
+      ".gitignore",
+      "LICENSE",
+      "README.md",
+      "analysis.py",
+      "netflix_content_strategy.ipynb",
+      "requirements.txt",
+      "run.py",
+      "validation.json"
+    ]
+  },
+  "source_download_verification": {
+    "date": "2026-10-28",
+    "clean_run_used_fresh_official_weekly_downloads": true,
+    "historical_end_date": "2024-04-14",
+    "current_labels_retained": true,
+    "reference_metrics_passed": true,
+    "optional_91day_file_required": false,
+    "raw_redistribution_permission_established": false
+  }
+}
